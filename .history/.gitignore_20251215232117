@@ -1,0 +1,264 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.test
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+venv.bak/
+env.bak/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+.emacs.d/
+.vim/
+.icloud
+.eslintcache
+.prettierignore
+
+# Node & npm
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.node-gyp
+
+# Next.js
+Frontend/.next/
+Frontend/out/
+Frontend/build/
+Frontend/.vercel
+Frontend/.turbo
+
+# Frontend build outputs
+Frontend/dist/
+Frontend/.cache/
+
+# Testing
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+coverage.xml
+*.cover
+.nyc_output/
+lcov.report/
+jest-coverage/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+mongo_data/
+mongodb_data/
+
+# Logging
+*.log
+logs/
+Backend/app.log
+*.log.*
+
+# Local storage & temp files
+images/
+Backend/images/
+Frontend/.next/
+temp/
+tmp/
+cache/
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+# IDE specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/*
+!.idea/.gitignore
+.project
+.classpath
+*.iml
+
+# Cloudflare & AWS
+.wrangler/
+dist/
+wrangler.toml.local
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Build artifacts
+dist/
+build/
+*.whl
+
+# Misc
+.env.example.swp
+*.pid
+.grunt
+.lock
+*.lnk
+.credentials
+.aws/
+.gcloud/
+
+# OS temp files
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+._*
+
+# Backup files
+*.backup
+*.bkp
+*.old
+
+# System files
+.AppleDB
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Node
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Python specific
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+site/
+
+# Database backups
+*.dump
+*.sql.gz
+
+# Selenium
+*.chromedriver
+*.geckodriver
+
+# API keys and secrets (never commit these)
+*.key
+*.pem
+.env.production
+.env.staging
+
+# Temporary files from merges
+*.orig
+
+# Python egg info
+*.egg-info/
+
+# Makefile targets
+.make
+
+# MacOS
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+.IconResolution
+.LSOverride
+.com.apple.timemachine.donotpresent
+._*
+.Trash*
+
+# Windows
+[Dd]esktop.ini
+[Ss]ystem [Vv]olume [Ii]nformation
+[Tt]humbs.db
+ehthumbs.db
+
+# Linux
+*~
+.fuse_hidden*
+.nfs*
+
+# Generated files
+Frontend/public/sw.js
+Frontend/public/workbox-*.js
+
+# Keep these important files
+!.gitkeep
+!.env.example
+!.env.sample
