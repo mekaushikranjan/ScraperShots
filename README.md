@@ -1,4 +1,4 @@
-# ScraperShorts
+# ScraperShots
 
 A full-stack application for scraping, managing, and displaying images from dynamic websites. Built with FastAPI backend, Next.js frontend, MongoDB database, and Cloudflare R2 storage.
 
